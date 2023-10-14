@@ -24,15 +24,17 @@ body {
   font-size: 4vw;
 }
 
-#main-li, #togglebut, #togglebut1 {
+#main-li,
+#togglebut,
+#togglebut1 {
   padding: 2vw;
   text-decoration: none;
   color: white;
 }
 
 .button-changer {
-    text-align: center;
-    margin-top: -1.2vw;
+  text-align: center;
+  margin-top: -1.2vw;
 }
 
 .sub-header {
@@ -61,21 +63,35 @@ body {
 }
 
 .footer-area {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 #back-to-top-nav {
-    text-decoration: none;
-    padding: 4.5vw;
+  text-decoration: none;
+  padding: 4.5vw;
 }
 
 #backtotop {
-    border: 2px solid white;
-    color: purple;
-    padding: 1vw 1vw;
-    padding-left: 1.5vw;
-    padding-right: 1.5vw;
-    font-size: 4vw;
-    text-decoration: none;
+  border: 2px solid white;
+  color: purple;
+  padding: 1vw 1vw;
+  padding-left: 1.5vw;
+  padding-right: 1.5vw;
+  font-size: 4vw;
+  text-decoration: none;
+}
+
+.contact-me-area {
+  text-align: center;
+  color: white;
+  padding: 1vh;
+}
+
+.input-box {
+  padding: 0.2vw;
+}
+
+#contact-form-button:hover {
+  background-color: gray;
 }

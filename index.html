@@ -127,11 +127,49 @@
       </div>
 
       <div class="hidden">
+        <section class="contact-me-area">
+          <form
+            id="contact-form"
+            action="https://formspree.io/f/xvojdqvw"
+            method="post"
+          >
+            <h1><span style="color: lawngreen">Contact Me</span></h1>
+            <div class="input-box">
+              <input
+                type="text"
+                name="name-text-field"
+                required
+                placeholder="Name"
+                value=""
+              />
+            </div>
+            <div class="input-box">
+              <input
+                type="email"
+                required
+                placeholder="Email"
+                name="email-text-field"
+              />
+            </div>
+            <div class="input-box" id="yourmessagebox">
+              <textarea
+                name="Your Message"
+                id=""
+                cols="19"
+                rows="5"
+                placeholder="Your message"
+              ></textarea>
+            </div>
+            <button id="contact-form-button" type="submit">Submit</button>
+          </form>
+        </section>
+
         <footer class="footer-area">
           <section id="back-to-top-nav">
             <a id="backtotop" href="#home">Back To Top</a>
           </section>
         </footer>
+        
       </div>
     </div>
   </body>
