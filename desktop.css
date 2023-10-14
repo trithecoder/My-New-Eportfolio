@@ -1,0 +1,88 @@
+@media only screen and (min-width: 768px) {
+    .main-header-li {
+        font-size: 1.5vw;
+    }
+
+    #main-li:hover {
+       color: blue;
+    }
+    
+    .button-changer {
+        margin-top: -1.8vw;
+    }
+
+    .sub-header {
+        justify-content: center;
+        padding: 15vh;
+    }
+
+    .sub-header-title {
+        font-size: 1.3vw;
+    }
+
+    #sub-header-article {
+        font-size: 1vw;
+    }
+
+    .projects-area {
+        padding: 15vh;
+    }
+
+    .project-area-projects {
+        padding: 1vw;
+    }
+
+    #projects-sub-header {
+       font-size: 1.3vw;
+    }
+
+    #huddle-project {
+        display: flex;
+        justify-content: left;
+    }
+
+    #huddle-img {
+        filter: blur(1.5px);
+        padding: 1vw;
+        width: 24vw;
+        height: 12vw;
+        transition: 1s;
+    }
+
+    #huddle-img:hover {
+        filter: blur(0);
+    }
+
+    .about-me-area {
+        padding: 15vh;
+    }
+
+    #about-me-header {
+        font-size: 1.3vw;
+    }
+
+    .about-me-cont {
+        font-size: 1vw;
+    }
+
+    #about-me-article-2 {
+        padding: 1vw;
+    }
+
+    #about-me-article-3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #backtotop {
+        font-size: 1vw;
+        padding: 0.5vw;
+        transition: 0.5s;
+    }
+
+    #backtotop:hover {
+        color: white;
+        background-color: blueviolet;
+    }
+}

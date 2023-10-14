@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Pixelify+Sans&family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Pixelify+Sans:wght@400;500&family=Poppins&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Pixelify Sans";
+  font-weight: 100;
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  background-color: black;
+}
+
+.main-header-li {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+  list-style: none;
+  padding: 4vw;
+  text-decoration: none;
+  font-size: 4vw;
+}
+
+#main-li, #togglebut, #togglebut1 {
+  padding: 2vw;
+  text-decoration: none;
+  color: white;
+}
+
+.button-changer {
+    text-align: center;
+    margin-top: -1.2vw;
+}
+
+.sub-header {
+  display: flex;
+  justify-content: left;
+  color: white;
+  padding: 5vh;
+  text-align: center;
+}
+
+#sub-header-article {
+  padding: 2.5vw;
+}
+
+.hidden {
+  opacity: 0;
+  filter: blur(1px);
+  transform: translateY(-10%);
+  transition: all 1.7s;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+
+.footer-area {
+    display: flex;
+    justify-content: center;
+}
+
+#back-to-top-nav {
+    text-decoration: none;
+    padding: 4.5vw;
+}
+
+#backtotop {
+    border: 2px solid white;
+    color: purple;
+    padding: 1vw 1vw;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    font-size: 4vw;
+    text-decoration: none;
+}

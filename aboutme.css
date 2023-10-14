@@ -1,0 +1,59 @@
+.about-me-area {
+  color: white;
+  padding: 10vh;
+}
+
+#about-me-header {
+  display: flex;
+  justify-content: center;
+}
+
+.about-me-cont {
+  padding: 2.5vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+#about-me-article-1 {
+  text-align: center;
+}
+
+#about-me-article-2 {
+    text-align: center;
+    padding: 3vw;
+}
+
+#about-me-article-3 {
+    text-align: center;
+}
+
+.hidden {
+  opacity: 0;
+  filter: blur(1px);
+  transform: translateY(-10%);
+  transition: all 1.7s;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+
+#htmlicon {
+    color: #d05025;
+}
+
+#cssicon {
+    color: #0c5de9;
+}
+
+#shopifyicon {
+    color: rgb(68, 163, 68);
+}
+
+#javascripticon {
+    color: rgb(255, 255, 0);
+}
