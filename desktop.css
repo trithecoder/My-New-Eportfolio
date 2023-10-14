@@ -1,6 +1,7 @@
 @media only screen and (min-width: 768px) {
     .main-header-li {
         font-size: 1.5vw;
+        justify-content: right;
     }
 
     #main-li:hover {
@@ -8,6 +9,7 @@
     }
     
     .button-changer {
+        display: block;
         margin-top: -1.8vw;
     }
 
