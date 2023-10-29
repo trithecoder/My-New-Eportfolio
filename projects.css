@@ -9,15 +9,16 @@
 
 .project-area-projects {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  padding: 2.5vw;
+  align-items: center;
+}
+
+.huddle-project, .netflix-project {
   padding: 2.5vw;
 }
 
-.huddle-project {
-  padding: 2.5vw;
-}
-
-#huddle-img {
+#huddle-img, #netflix-img {
   padding: 5vw;
   width: 50vw;
   height: 25vw;

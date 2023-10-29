@@ -6,6 +6,10 @@ const myprojects = document.getElementById('projects')
 const mainarea = document.getElementById('main-area')
 const button1 = document.getElementById('togglebut')
 const button2 = document.getElementById('togglebut1')
+const linkhover = document.getElementById('linksymbol');
+const linkhover2 = document.getElementById('linksymbol2')
+const huddlelink = document.getElementById('huddle-link');
+const netflixlink = document.getElementById('netflix-link')
 
 
 function changebgcolor() {
@@ -45,3 +49,32 @@ const observer = new IntersectionObserver((entries) => {
 
 const hiddenElements = document.querySelectorAll('.hidden');
 hiddenElements.forEach((el) => observer.observe(el))
+
+
+function linkpop() {
+    huddlelink.style.opacity = '1'
+    huddlelink.style.transition = '1s'
+    huddlelink.style.transform = 'translateX(0)'
+}
+
+function resetlinkpop() {
+    huddlelink.style.opacity = '0'
+}
+
+function linkpop2() {
+    netflixlink.style.opacity = '1'
+    netflixlink.style.transition = '1s'
+    netflixlink.style.transform = 'translateX(0)'
+}
+
+function resetnetflixLink() {
+    netflixlink.style.opacity = '0'
+}
+
+//HUDDLE LINK EFFECTS
+linkhover.addEventListener('mouseover', linkpop)
+linkhover.addEventListener('mouseout', resetlinkpop)
+
+//NETFLIX LINK EFFECTS
+linkhover2.addEventListener('mouseover', linkpop2)
+linkhover2.addEventListener('mouseout', resetnetflixLink)

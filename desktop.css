@@ -43,7 +43,7 @@
         justify-content: left;
     }
 
-    #huddle-img {
+    #huddle-img, #netflix-img {
         filter: blur(1.5px);
         padding: 1vw;
         width: 24vw;
@@ -51,8 +51,16 @@
         transition: 1s;
     }
 
+    #netflix-img:hover {
+        filter: blur(0);
+    }
+
     #huddle-img:hover {
         filter: blur(0);
+    }
+
+    .img-captions {
+        font-size: 17px;
     }
 
     .about-me-area {
