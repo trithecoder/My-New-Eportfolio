@@ -10,8 +10,10 @@
 .project-area-projects {
   display: flex;
   flex-direction: column;
-  padding: 2.5vw;
+  width: 100%;
+  text-align: center;
   align-items: left;
+  overflow: hidden;
 }
 
 .huddle-project, .netflix-project {
@@ -22,6 +24,8 @@
   padding: 5vw;
   width: 50vw;
   height: 25vw;
+  display: flex;
+  justify-content: center;
 }
 
 .hidden {

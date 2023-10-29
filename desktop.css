@@ -33,6 +33,7 @@
     .project-area-projects {
         padding: 1vw;
         align-items: center;
+        text-align: left;
     }
 
     #projects-sub-header {
@@ -50,6 +51,7 @@
         width: 24vw;
         height: 12vw;
         transition: 1s;
+        align-items: left;
     }
 
     #netflix-img:hover {
