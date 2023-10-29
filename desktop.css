@@ -32,6 +32,7 @@
 
     .project-area-projects {
         padding: 1vw;
+        align-items: center;
     }
 
     #projects-sub-header {
